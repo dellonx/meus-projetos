@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+/*Inicio Nav*/
+.nav {
+    background-color: #000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    list-style: none; 
+    margin-right: 24px;
+}
+
+.nav_list a {
+    padding: 20px;
+    text-decoration: none;
+    color: #a4a4a4;
+}
+
+.nav_list a:hover {
+    color: #fff;
+}
+
+/*Fim Nav*/
+
+/*Inicio Nav*/
+
+.main {
+    width: 100%;
+    background-color: #c6c6c6;
+    height: calc(100vh - 80px); /*IMPORTANTE SABER!!! ANOTE, BURRO*/
+}
